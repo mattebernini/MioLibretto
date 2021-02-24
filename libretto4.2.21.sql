@@ -35,12 +35,6 @@ CREATE TABLE IF NOT EXISTS `utente` (
   `anni` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
---
--- Dump dei dati per la tabella `utente`
---
-
-INSERT INTO `utente` (`username`, `password`, `email`, `data_iscrizione`, `facolta`, `anni`) VALUES
-('matte', '$2y$10$EE4DQZbEx6ItStwv9N.sd.KDbQeBQpeJEE49duqj80S5Ue/S/D1zK', '', '2021-02-02 15:59:47', 'Ingegeria Informatica', 3);
 
 -- --------------------------------------------------------
 
@@ -56,18 +50,6 @@ CREATE TABLE IF NOT EXISTS `valutazione` (
   `anno` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
---
--- Dump dei dati per la tabella `valutazione`
---
-
-INSERT INTO `valutazione` (`username`, `voto`, `cfu`, `esame`, `anno`) VALUES
-('matte', 19, 6, 'Algebra Lineare', 1),
-('matte', 22, 6, 'Algoritmi e strutture dati', 1),
-('matte', 26, 12, 'Analisi 1', 1),
-('matte', 29, 9, 'Basi di Dati', 1),
-('matte', 18, 12, 'Fisica', 1),
-('matte', 26, 9, 'Fondamenti di Programmazione', 1),
-('matte', 25, 6, 'Progettazione Web', 2);
 
 --
 -- Indexes for dumped tables

@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f1e3;
+}
+h1 {
+    text-align: center;
+}
+
+/* posizionamenti  */
+#aggiungi_voto {
+    border-radius: 5px;
+    border: 1px;
+    background-color: lightgray;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+#riepilogo_voti {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#analytics {
+    border-radius: 5px;
+    border: 1px;
+    background-color: lightgray;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+#simulazione {
+    border-radius: 5px;
+    border: 1px;
+    background-color: lightgray;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+/*#aggiungi_voto {
+    float: right;
+    margin-right: 100px;
+    border-radius: 5px;
+    border: 1px;
+    background-color: lightgray;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+#riepilogo_voti {
+
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#analytics {
+
+    float: right;
+    margin-right: 100px;
+    border-radius: 5px;
+    border: 1px;
+    background-color: lightgray;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+#simulazione {
+    float: right;
+    margin-right: 100px;
+    border-radius: 5px;
+    border: 1px;
+    background-color: lightgray;
+    padding: 20px;
+    margin-bottom: 30px;
+}*/
+#anni_laurea {
+    display: none;
+}
+
+/*  riepilogo voti  */
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+  }
+  
+  table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  table tr {background-color: white;}
+  
+  table tr:hover {background-color: salmon;}
+  
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: lightgrey;
+    color: black;
+  }
+
+  /*    input   */
+  #aggiungi_voto input[type = "text"], #aggiungi_voto input[type = "password"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 3px auto;
+    text-align: center;
+    border: 2px solid salmon; 
+    padding: 8px 4px;
+    outline: none;
+    color: black;
+    border-radius: 20px;
+    transition: 0.25s;
+}
+
+
+#aggiungi_voto input[type = "submit"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 3px auto;
+    text-align: center;
+    border: 2px solid salmon; 
+    padding: 10px 30px;
+    outline: none;
+    color: black;
+    border-radius: 20px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+#aggiungi_voto input[type = "submit"]:hover
+{
+    background-color: salmon;
+    color: whitesmoke;
+}
+
+#aggiungi_voto p, #aggiungi_voto a {
+    color: black; 
+}
+
+#simulazione input[type = "text"], #simulazione input[type = "password"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 3px auto;
+    text-align: center;
+    border: 2px solid salmon; 
+    padding: 8px 4px;
+    outline: none;
+    color: black;
+    border-radius: 20px;
+    transition: 0.25s;
+}
+
+
+#simulazione input[type = "submit"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 3px auto;
+    text-align: center;
+    border: 2px solid salmon; 
+    padding: 10px 30px;
+    outline: none;
+    color: black;
+    border-radius: 20px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+#simulazione input[type = "submit"]:hover
+{
+    background-color: salmon;
+    color: whitesmoke;
+}
+
+#simulazione p, #simulazione a {
+    color: black; 
+}
